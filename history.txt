@@ -1,0 +1,31 @@
+    1  docker version
+    2  docker pull bitnami/mean
+    3  docker login
+    4  touch demo
+    5  cat demo
+    6  touch demologin.sh
+    7  ./demologin.sh
+    8  ls
+    9  ls -l
+   10  chmod 777 demologin.sh 
+   11  ls -l
+   12  ./demologin.sh 
+   13  docker pull rakeshgundla/private-repo:pet-clinic-v1.0
+   14  docker images
+   15  docker run -d rakeshgundla/privrate-repo:pet-clinic-v1.0 -n PetClinic
+   16  docker run -d rakeshgundla/private-repo:pet-clinic-v1.0 -n PetClinic
+   17  docker ps
+   18  docker stop e600d2f88323
+   19  docker ps
+   20  docker run -d -n PetClinic -p 8080
+   21  docker run -h
+   22  docker run --help
+   23  docker run -d -p 8080:8080 rakeshgundla/private-repo:pet-clinic-v1.0
+   24  docker ps
+   25  docker ps
+   26  docker logs pensiver_beaver
+   27  docker logs pensive_beaver
+   28  docker logs pensive_beaver
+   29  history
+   30  history > history.py
+   31  history > history.txt
