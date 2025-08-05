@@ -29,3 +29,73 @@
    29  history
    30  history > history.py
    31  history > history.txt
+   32  docker exec -it pensive_beaver
+   33  docker exec --help
+   34  docker exec -it 
+   35  docker ps
+   36  docker exec -it pensive_beaver
+   37  docker exec -it pensive_beaver /bin/bash
+   38  docker pull nginx:latest
+   39  git version
+   40  git clone https://github.com/gundlarakesh/play-with-docker.git
+   41  ls
+   42  cd play-with-docker/
+   43  mv .demologin.sh play-with-docker
+   44  mv .demologin.sh play-with-docker/
+   45  mv demologin.sh play-with-docker/
+   46  cd ..
+   47  mv demologin.sh play-with-docker/
+   48  ls
+   49  mv history.txt play-with-docker/
+   50  cd play-with-docker/
+   51  git status
+   52  git branch
+   53  git branch
+   54  git status
+   55  git add .
+   56  git commit -m "added histoty and docker login"
+   57  git status
+   58  git config --local user.name "Rakesh Gundla"
+   59  git status
+   60  git add .
+   61  git commit -m "added login script and history"
+   62  git config --local user.email "rakeshgundla68@gmail.com"
+   63  git status
+   64  git commit -m "added login script and history"
+   65  git push -u origin main
+   66  git push origin main
+   67  git push origin main
+   68  git push origin main > log
+   69  ls
+   70  cat log
+   71  rm log
+   72  ls
+   73  git push origin main
+   74  docker ps
+   75  docker pull nginx:latest
+   76  docker run -d --name mynginx -p 8080:80 -v mydata:/usr/share/nginx/html nginx
+   77  docker run -d --name mynginx -p 80:80 -v mydata:/usr/share/nginx/html nginx
+   78  docker ps
+   79  docker ps -a
+   80  docker rm nginx
+   81  docker rm mynginx
+   82  docker ps -a
+   83  docke ps prune
+   84  docker prune ps
+   85  docker ps prune
+   86  docker prune --help
+   87  docker container prune -a
+   88  docker container prune
+   89  docker ps
+   90  docker ps -a
+   91  docker run -d --name mynginx -p 80:80 -v mydata:/usr/share/nginx/html nginx
+   92  docker ps
+   93  docker volumes ls
+   94  docker volume ls
+   95  docker exec -it mynginx sh
+   96  docker stop mynginx
+   97  docker rm -f mynginx
+   98  docker -d --name my-nginx -p 80:80 -v mydata:/usr/share/nginx/html nginx
+   99  docker run -d --name my-nginx -p 80:80 -v mydata:/usr/share/nginx/html nginx
+  100  history
+  101  history > history.txt
