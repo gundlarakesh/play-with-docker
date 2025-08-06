@@ -1,0 +1,100 @@
+    1  docker ps
+    2  ls
+    3  ls -l
+    4  git status
+    5  git clone  https://github.com/gundlarakesh/play-with-docker.git
+    6  cd play-with-docker/
+    7  touch mysql_entrypoint.sh
+    8  docker run -d --name mysql_server -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root123 mysql:latest
+    9  docker ps
+   10  docker logs mysql_server
+   11  docker exec -it mysql_server
+   12  docker exec -it mysql_server /bash
+   13  docker exec -it mysql_server sh
+   14  docker exec -it mysql_server /bin/bash
+   15  history
+   16  mysql
+   17  docker exec -it mysql_server /bin/bash
+   18  docker ps 
+   19  docker stop mysql_server
+   20  docker ps
+   21  ls
+   22  ./mysql_entrypoint.sh
+   23  ls -l
+   24  sudo chmod 700 mysql_entrypoint.sh 
+   25  ls -l mysql_entrypoint.sh 
+   26  ./mysql_entrypoint.sh
+   27  ./mysql_entrypoint.sh 
+   28* 
+   29  touch sc.sh
+   30  vim sc.sh 
+   31  ./sh
+   32  ./sc.sh
+   33  chmod 777 sc.sh 
+   34  ./sc.sh
+   35  sudo chmod 777 mysql_entrypoint.sh 
+   36  ./mysql_entrypoint.sh
+   37  ./mysql_entrypoint.sh
+   38  which bash
+   39  cat mysql_entrypoint.sh 
+   40  docker ps
+   41  time
+   42  date
+   43  history > history{data}.txt
+   44  la
+   45  ls
+   46  history > history{date}.txt
+   47  ls
+   48  touch history_$(date +%F_%H-%M-%S).txt
+   49  ls
+   50  rm history\{data\}.txt 
+   51  rm history\{date\}.txt 
+   52  ls
+   53  git add .
+   54  git commit -m "added docker script to run mysql server"
+   55  touch startup.sh
+   56  sl
+   57  ls
+   58  cat startup.sh 
+   59  chmod 777 startup.sh 
+   60  ./startup.sh 
+   61  git config --local
+   62  git config --local --list
+   63  git commit -m "added docker script to run mysql server"
+   64  git push -u origin main
+   65  echo "hell"
+   66  docker ps
+   67  docker run -d --name mysql_server -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root123 mysql:latest
+   68  docker ps
+   69  docker ps -a
+   70  docker container prune
+   71  docker ps
+   72  docker ps -a
+   73  docker run -d --name mysql_server -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root123 mysql:latest
+   74  docker run -d --name mysql_server -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root123 mysql:latest
+   75  docker logs mysql_server
+   76  docker logs mysql_server
+   77  docker logs mysql_server
+   78  docker logs mysql_server
+   79  docker exec -it mysql_server /bin/bash
+   80  docker stop mysql_server
+   81  docker container prune
+   82  docker ps -a
+   83  docker run -d --na
+   84  clear
+   85  docker rclear -d --na
+   86  clear
+   87  doc2RR0;276;0cclearker run -d --name mysql_server -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root123 mysql:latest
+   88  clear
+   89  docker run -d --name mysql_server -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root123 -v db-data:/var/lib/mysql  mysql:latest
+   90  docker ps
+   91  docker volume ls
+   92  docker volume db-data ls
+   93  docker volume inspect db-data
+   94  docker exec -it mysql_server /bin/bash
+   95  docker rm -f mysql_server
+   96  docker ps -a
+   97  docker run -d --name mysql_server -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root123 -v db-data:/var/lib/mysql  mysql:latest
+   98  docker ps
+   99  docker exec -it mysql_server /bin/bash
+  100  history > history_06_08_25.txt
